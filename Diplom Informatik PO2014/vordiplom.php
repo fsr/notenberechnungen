@@ -13,41 +13,12 @@ Für PO 2010 Diplom Informatik, TU Dresden<br>
 <?php
 // Disclaimer: Gebaut mit wenig bis keinem Wissen über PHP :-D
 
-$mathe1 = str_replace(",",".",$_GET['mathe1']);
-$mathe2 = str_replace(",",".",$_GET['mathe2']);
-$aud = str_replace(",",".",$_GET['aud']);
-$prog = str_replace(",",".",$_GET['prog']);
-$lab = str_replace(",",".",$_GET['lab']);
-$swt = str_replace(",",".",$_GET['swt']);
-$bus = str_replace(",",".",$_GET['bus']);
-$dbrn = str_replace(",",".",$_GET['dbrn']);
-$ikt = str_replace(",",".",$_GET['ikt']);
-$fs = str_replace(",",".",$_GET['fs']);
-$logik = str_replace(",",".",$_GET['logik']);
-$is = str_replace(",",".",$_GET['is']);
-$ra = str_replace(",",".",$_GET['ra']);
-$tg = str_replace(",",".",$_GET['tg']);
-$soi = str_replace(",",".",$_GET['soi']);
-$nf = str_replace(",",".",$_GET['nf']);
-$aqua = str_replace(",",".",$_GET['aqua']);
+$params = array('mathe1', 'mathe2', 'aud', 'prog', 'lab', 'swt', 'bus', 'dbrn', 'ikt', 'fs', 'logik', 'is', 'ra', 'tg', 'soi', 'nf', 'aqua');
 
-$arr = array(	$mathe1, 
-		$mathe2, 
-		$aud,
-		$prog,
-		$lab,
-		$swt,
-		$bus,
-		$dbrn,
-		$ikt,
-		$fs,
-		$logik,
-		$is,
-		$ra,
-		$tg,
-		$soi,
-		$nf, 
-		$aqua);
+foreach($params as $f) {
+	$$f = str_replace(",",".",$_GET[$f]);
+	$arr[] = $$f;
+}
 
 $missing = "false";
 $five = "false";
@@ -84,24 +55,12 @@ if(($missing=="false") AND ($five=="false") AND ($no_grade == "false")){
 	$n_nf = $nf*7;
 	$n_aqua = $aqua*5;
 	
-	$sum = $n_mathe1 + 
-		$n_mathe2 +
-		$n_aud +
-		$n_prog +
-		$n_lab +
-		$n_swt +
-		$n_bus +
-		$n_dbrn +
-		$n_ikt +
-		$n_fs +
-		$n_logik +
-		$n_is +
-		$n_ra +
-		$n_tg +
-		$n_soi +
-		$n_nf +
-		$n_aqua;
-
+	$sum = 0;
+	foreach ($params as $f) {
+		$nname = "n_" + $f;
+		$sum += $$nname;
+	}
+	
 	$note = $sum/118;	
 
 	//$note = (floor($note*10))/10;

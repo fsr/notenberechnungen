@@ -124,8 +124,10 @@ if(($missing=="false") AND ($five=="false") AND ($no_grade == "false")){
 
 	$note = $sum/204;	
 
+	$note = floor($note*10);
+	
 	echo "<hr><font color='#008000'><b>Note: ";
-	printf("%1\$.1f",$note);
+	printf("%1\$.1f",$note/10);
 	echo "</b></font><br><hr><br>";
 } 
 if($five=="true"){

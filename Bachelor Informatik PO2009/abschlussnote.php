@@ -237,6 +237,6 @@ if($no_grade == "true"){
 </form>
 
 <hr>
-by Sascha<br> <i>Stand: Alpha vom 11.09.2014</i>, keine Gewähr (oder so)
+by Sascha<br> <a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 11.09.2014</i></a>, keine Gewähr (oder so)
 
 </body>

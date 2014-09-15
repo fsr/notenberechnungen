@@ -3,7 +3,13 @@
         <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Berechnung Abschlussnote</title>
-        </head>
+        <style type="text/css">
+	form	{
+		margin: 0px 0px 0px 50px;
+		text-align:justify;}
+	</style>
+
+	</head>
 <body>
 
 <h1>Berechnung der Abschlussnote</h1>
@@ -230,12 +236,15 @@ if($no_grade == "true"){
 	<td>Bachelor-Arbeit und Kolloquium</td>
 	<td><input type="text" name="bachelor" value="<?php echo htmlspecialchars ($bachelor); ?>" required></td>
 </tr>
+<tr>
+	<td>&#160;</td>
+	<td>&#160;</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Note berechnen" /></td>
+</tr>
 </table>
- 
-
-<p>
-<input type="submit" value="Berechnen" />
-</p>
  
 </form>
 

@@ -251,6 +251,6 @@ if($no_grade == "true"){
 <hr>
 <a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 15.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;by Sascha<br>
-<img src="../images/FsrLogo.png" alt="Logo iFSR" width="120px" height="120px">
+<img src="../images/FsrLogo.png" alt="Logo iFSR" width="120" height="120">
 
 </body>

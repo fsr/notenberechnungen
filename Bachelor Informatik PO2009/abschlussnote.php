@@ -125,6 +125,7 @@ if(($missing=="false") AND ($five=="false") AND ($no_grade == "false")){
 	echo "<hr><font color='#008000'><b>Note: ";
 	printf("%1\$.1f",$note/10);
 	echo "</b></font><br><hr><br>";
+
 } 
 if($five=="true"){
 	echo "<hr><font color='#800000'><b>Keine Berechnung möglich bei nicht bestandenen Prüfungen (mit > 4.0)</b></font><br><hr><br>";
@@ -239,6 +240,8 @@ if($no_grade == "true"){
 </form>
 
 <hr>
-by Sascha<br> <a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 11.09.2014</i></a>, keine Gewähr (oder so)
+<a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 15.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
+&#160;&#160;&#160;&#160;&#160;&#160;&#160;by Sascha<br>
+<img src="../images/FsrLogo.png" alt="Logo iFSR" width="120px" height="120px">
 
 </body>

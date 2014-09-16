@@ -3,6 +3,7 @@
         <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Berechnung Vordiplom</title>
+	<link rel="stylesheet" type="text/css" href="../resourcen/style.css"> 
         </head>
 <body>
 

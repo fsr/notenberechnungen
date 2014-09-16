@@ -3,11 +3,7 @@
         <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Berechnung Abschlussnote</title>
-        <style type="text/css">
-	form	{
-		margin: 0px 0px 0px 50px;
-		text-align:justify;}
-	</style>
+        <link rel="stylesheet" type="text/css" href="../resourcen/style.css"> 
 
 	</head>
 <body>
@@ -251,6 +247,6 @@ if($no_grade == "true"){
 <hr>
 <a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 15.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;by Sascha<br>
-<img src="../images/FsrLogo.png" alt="Logo iFSR" width="120" height="120">
+<img src="../resourcen/FsrLogo.png" alt="Logo iFSR" width="120" height="120">
 
 </body>

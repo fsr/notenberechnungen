@@ -98,12 +98,15 @@ if($no_grade == "true"){
 	<td>Master-Arbeit + Verteidigung</td>
 	<td><input type="text" name="master" value="<?php echo htmlspecialchars ($master); ?>" required></td>
 </tr>
+<tr>
+	<td>&#160;</td>
+	<td>&#160;</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Note berechnen" /></td>
+</tr>
 </table>
- 
-
-<p>
-<input type="submit" value="Berechnen" />
-</p>
  
 </form>
 

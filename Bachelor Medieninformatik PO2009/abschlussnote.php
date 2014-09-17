@@ -242,12 +242,15 @@ if($no_grade == "true"){
 	<td>Bachelor-Arbeit und Kolloquium</td>
 	<td><input type="text" name="bachelor" value="<?php echo htmlspecialchars ($bachelor); ?>" required></td>
 </tr>
+<tr>
+	<td>&#160;</td>
+	<td>&#160;</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Note berechnen" /></td>
+</tr>
 </table>
- 
-
-<p>
-<input type="submit" value="Berechnen" />
-</p>
  
 </form>
 

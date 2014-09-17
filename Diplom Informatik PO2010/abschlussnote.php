@@ -147,12 +147,15 @@ if($no_grade == "true"){
 	<td>Diplomarbeit und Verteidigung</td>
 	<td><input type="text" name="diplom" value="<?php echo htmlspecialchars ($diplom); ?>" required></td>
 </tr>
+<tr>
+	<td>&#160;</td>
+	<td>&#160;</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Note berechnen" /></td>
+</tr>
 </table>
- 
-
-<p>
-<input type="submit" value="Berechnen" />
-</p>
  
 </form>
 

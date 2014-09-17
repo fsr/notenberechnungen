@@ -200,12 +200,15 @@ if($no_grade == "true"){
 	<td>Allgemeine Basisqualifikationen</td>
 	<td><input type="text" name="aqua" value="<?php echo htmlspecialchars ($aqua); ?>" required></td>
 </tr>
+<tr>
+	<td>&#160;</td>
+	<td>&#160;</td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="Note berechnen" /></td>
+</tr>
 </table>
- 
-
-<p>
-<input type="submit" value="Berechnen" />
-</p>
  
 </form>
 

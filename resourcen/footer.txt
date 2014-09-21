@@ -1,4 +1,4 @@
 ﻿<hr>
-<a href="https://github.com/fsr/notenberechnungen"><i>Stand: Beta vom 18.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
+<a href="https://github.com/fsr/notenberechnungen"><i>Stand: Version 1.0 vom 21.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
 &#160;&#160;&#160;&#160;&#160;&#160;&#160;by <a href="https://github.com/SaschaPeukert>Sascha</a><br>
 <img src="../resourcen/FsrLogo.png" alt="Logo iFSR" width="120" height="120">

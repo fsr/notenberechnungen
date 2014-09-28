@@ -5,7 +5,7 @@
 </table> 
 </form>
 <hr>
-<a href="https://github.com/fsr/notenberechnungen"><i>Stand: Version 1.1 vom 28.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
+<a href="https://github.com/fsr/notenberechnungen"><i>Stand: Version 2.0 vom 28.09.2014</i></a>, keine Gewähr auf Richtigkeit. Eventuelle Fehler bitte melden.<br>
 made by <a href="https://github.com/SaschaPeukert">Sascha</a> &amp; <a href="https://github.com/dirkonet">Dirk</a><br>
 <img src="../ressourcen/FsrLogo.png" alt="Logo iFSR" width="120" height="120">
 </body>

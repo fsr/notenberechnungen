@@ -62,7 +62,7 @@ function show_modules($module) {
 }
 
 function show_table_head() {
-	 echo '<form action="abschlussnote.php" method="get">
+	 echo '<form action="" method="get">
 	 <table>';
 }
 

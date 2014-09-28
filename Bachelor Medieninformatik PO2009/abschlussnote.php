@@ -3,7 +3,7 @@
         <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Berechnung Abschlussnote</title>
-	<link rel="stylesheet" type="text/css" href="../resourcen/style.css"> 
+	<link rel="stylesheet" type="text/css" href="../ressourcen/style.css"> 
         </head>
 <body>
 
@@ -254,7 +254,7 @@ if($no_grade == "true"){
  
 </form>
 
-<?php echo file_get_contents("../resourcen/footer.txt");
+<?php echo file_get_contents("../ressourcen/footer.txt");
 ?>
 
 </body>

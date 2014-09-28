@@ -1,18 +1,8 @@
-<!DOCTYPE html> 
-      <html xmlns='http://www.w3.org/1999/xhtml' lang='de' xml:lang='de'>
-        <head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-          <title>Berechnung Vordiplom</title>
-	<link rel="stylesheet" type="text/css" href="../ressourcen/style.css"> 
-        </head>
-<body>
-
-<h1>Berechnung der Vordiplomnote</h1>
-Für PO 2010 Diplom Informatik, TU Dresden<br>
-<br>
-
 <?php
 // Disclaimer: Gebaut mit wenig bis keinem Wissen über PHP :-D
+include_once("../ressourcen/lib.php");
+
+echo load_header("Berechnung der Vordiplomnote", "Für PO 2010 Diplom Informatik, TU Dresden");
 
 $mathe1 = str_replace(",",".",$_GET['mathe1']);
 $mathe2 = str_replace(",",".",$_GET['mathe2']);
@@ -212,6 +202,4 @@ if($no_grade == "true"){
  
 </form>
 
-<?php echo file_get_contents("../ressourcen/footer.txt");
-?>
-</body>
+<?php echo load_footer(); ?>

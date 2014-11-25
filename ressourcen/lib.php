@@ -49,7 +49,7 @@ function calculate($data, &$module) {
 	}
 
 	if($no_grade){
-		echo "<hr><div class='warning'><b>Bitte nur Zahlen zwischen 1 und 4 in die Felder eintragen.</div><hr><br>";
+		echo "<hr><div class='warning'>Bitte nur Zahlen zwischen 1 und 4 in die Felder eintragen.</div><hr><br>";
 	}
 }
 

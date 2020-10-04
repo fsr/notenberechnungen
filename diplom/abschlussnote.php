@@ -21,6 +21,10 @@ show_table_head();
 show_modules($module);
 ?>
 <tr>
+	<td>Forschungslinie</td>
+	<td><i>Keine Note.<br> Muss aber bestanden sein.</i></td>
+</tr>
+<tr>
 	<td>Berufspraktikum</td>
 	<td><i>Keine Note.<br> Muss aber bestanden sein.</i></td>
 </tr>
